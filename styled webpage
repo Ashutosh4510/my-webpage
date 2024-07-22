@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Laila:wght@300;400;500;600;700&family=Lusitana:wght@400;700&family=Permanent+Marker&family=Yatra+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Laila:wght@300;400;500;600;700&family=Lusitana:wght@400;700&family=Permanent+Marker&family=Yatra+One&display=swap" rel="stylesheet">
+<style>
+		body{
+        margin:0;
+        padding:0;
+        background-color:#f0f0f0;
+        background-image:url('https://i.pinimg.com/736x/ae/6d/c7/ae6dc78efb8c332e22e3d3218565a43d.jpg');
+        background-size:auto;
+        }
+        header h1{
+           text-align:center;
+           margin-bottom:10px;
+           font-size:40px;
+            font-family: "Laila", serif;
+  			font-weight: 600;
+  			font-style: normal;
+           color:white;
+           }
+        header p{
+        	text-align:center;
+            font-size:20px;
+            font-family: Arial, sans-serif;
+            color: white;
+            }
+        .skills{
+        padding:20px;
+        background-color: grey;
+        }
+        .skills h2{
+        font-family: "K2D", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        }
+        .skills ul{
+        list-style:none;
+        font-family: Arial, sans-serif;
+        }
+        .skills li {
+       padding: 5px;
+       font-family: "K2D", sans-serif;
+       font-weight: 700;
+       font-style: italic;
+       }
+       .let{
+       text-align: center;
+       padding:20px;
+       background-color:dark grey;
+       }
+       .let button{
+       background-color:white;
+       padding:10px 20px;
+       color:black;
+       font-size:16px;
+       cursor:pointer;
+       }
+       .let button:hover {
+       background-color: grey;
+       color: #fff;
+}
+</style>
+</head>
+<body>
+<header>
+<h1><i>Ashutosh Dwivedi</i></h1>
+<p>Software Developer  |  Problem Solving Enthusiast</p>
+</header>
+<section class="skills">
+<h2>Skills</h2>
+<ul>
+<li>Java Programming</li>
+<hr>
+<li>Kotlin Programming</li>
+<hr>
+<li>Html/CSS</li>
+<hr>
+<li>DSA</li>
+</ul>
+</section>
+<section class="let">
+<button><b><i>Let's Connect!</i></b></button>
+</section>
+</body>
+</html>
